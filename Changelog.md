@@ -15,6 +15,8 @@
 
 6.修复，再次修复“有小概率会错误的检测到“系统不支持”然后服务暴毙的bug”。
 
+## Historical Changelog
+
 ### 增强模块 微型版v6更新：
 1.新增，用户温控检测配置调整文件，可以在/sdcard/Android/MTK-Enhance/cfg_enhance.prop调整温度检测的阈值。
 
