@@ -1,6 +1,12 @@
 # MTK core temperature unlocking service
 
-## Changelog  
+## Changelog
+
+### 增强模块 微型版v7.1更新：
+
+1.修复，奇奇怪怪的log输出。
+
+## Historical Changelog  
 
 ### 增强模块 微型版v7更新：
 1.新增，新增一个温度检测阈值控制，到达135触发powersave模式。
@@ -16,8 +22,6 @@
 6.调整，将不再对module.prop注入，会单独创建一个module.prop，但核心服务程序仍然在uperf文件夹内部，所以禁用uperf那么核心服务不会启用，如果在magisk里禁用“增强模块”那么在uperf里的服务会检测magisk留下的flag，也不会启动。
 
 7.修复，再次修复“有小概率会错误的检测到“系统不支持”然后服务暴毙的bug”。
-
-## Historical Changelog
 
 ### 增强模块 微型版v6更新：
 1.新增，用户温控检测配置调整文件，可以在/sdcard/Android/MTK-Enhance/cfg_enhance.prop调整温度检测的阈值。
