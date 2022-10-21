@@ -9,11 +9,13 @@
 
 3.新增，支持在magisk里在线更新。
 
-4.调整，默认配置调整，将原来的高温保护阈值从原来的115℃触发balance模式提高到120℃触发v2版本的performance模式；v3版本的fast模式，将原来的120℃触发powersave模式提高到130℃触发balance模式。
+4.新增 在系统启动60秒内崩溃会自动禁用模块
 
-5.调整，将不再对module.prop注入，会单独创建一个module.prop，但核心服务程序仍然在uperf文件夹内部，所以禁用uperf那么核心服务不会启用，如果在magisk里禁用“增强模块”那么在uperf里的服务会检测magisk留下的flag，也不会启动。
+5.调整，默认配置调整，将原来的高温保护阈值从原来的115℃触发balance模式提高到120℃触发v2版本的performance模式；v3版本的fast模式，将原来的120℃触发powersave模式提高到130℃触发balance模式。
 
-6.修复，再次修复“有小概率会错误的检测到“系统不支持”然后服务暴毙的bug”。
+6.调整，将不再对module.prop注入，会单独创建一个module.prop，但核心服务程序仍然在uperf文件夹内部，所以禁用uperf那么核心服务不会启用，如果在magisk里禁用“增强模块”那么在uperf里的服务会检测magisk留下的flag，也不会启动。
+
+7.修复，再次修复“有小概率会错误的检测到“系统不支持”然后服务暴毙的bug”。
 
 ## Historical Changelog
 
